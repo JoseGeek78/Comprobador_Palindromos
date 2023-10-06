@@ -1,5 +1,5 @@
 function palindrome(str) {
-  // Eliminar caracteres no alfanuméricos y convertir a minúsculas
+  // Elimina caracteres no alfanuméricos y convertir a minúsculas
   var cleanString = str.replace(/[^A-Za-z0-9]/g, "").toLowerCase();
 
   // Comparar la cadena original con su reverso
